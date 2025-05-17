@@ -1,7 +1,13 @@
 .searchContainer{
     margin: 20px auto;
     width: 300px;
-    position:relative
+    position:relative;
+    display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #fff;
 }
 .input{
     border:none;
@@ -11,4 +17,8 @@
     outline:none;
     font-size:16px;
     color:#393e46
+}
+.icon {
+  margin-right: 8px;
+  font-size: 18px;
 }

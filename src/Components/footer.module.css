@@ -1,0 +1,28 @@
+.footer {
+  background-color: rgb(245, 224, 33);
+  color: #060000;
+  text-align: center;
+  padding: 1rem;
+}
+
+.social{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* space between icons */
+  margin-top: 10px;
+  
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  filter: brightness(0) invert(1); /* Make icons white if they’re black */
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}

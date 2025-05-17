@@ -21,11 +21,13 @@ export default function Search({foodData, setFoodData}){
         fetchFood();
     }, [query])
     return <div className={styles.searchContainer}>
+        <span className={styles.icon}>🔍</span>
         <input
              className={styles.input} 
         value={query}
         onChange={(e)=> setQuery(e.target.value)}
         type="text"
-        />
+        placeholder="Search here....."/>
+       
     </div>
 }
