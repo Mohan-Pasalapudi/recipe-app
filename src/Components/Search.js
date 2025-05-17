@@ -4,7 +4,7 @@ import {useEffect} from "react";
 import styles from './search.module.css'
 const API="https://api.spoonacular.com/recipes/complexSearch";
 
-const API_KEY="6159a1ac97ba4a7382af0db18de7c6b9";
+const API_KEY="4ab083f8b24d4a7a9278b18e4b7476b0";
 
 export default function Search({foodData, setFoodData}){
 
